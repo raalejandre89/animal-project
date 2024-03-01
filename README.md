@@ -34,4 +34,4 @@ There are two available commands: one to create animals and another one to list 
 - Run ```sail artisan animal:list```
     - After running the command the app will guide you with the different options to list animals.
 ## Test
--To run the tests run ```sail artisan test```
+- To run the tests run ```sail artisan test```
