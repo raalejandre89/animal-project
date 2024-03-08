@@ -14,8 +14,8 @@ Follow the following steps to install the necessary components to run the applic
 
 ----------------------------
 
-- After docker is installed and running navigate to the root folder of the project and run ```./vendor/bin/sail up```
-  - Instead of repeatedly typing ```vendor/bin/sail``` to execute Sail commands, you can configure a shell alias that allows you to execute Sail's commands more easily: ```alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'``` that way next time instead of executing ```./vendor/bin/sail up``` just run ```sail up```.
+- After docker is installed and running navigate to the root folder of the project and run ```./vendor/bin/sail up -d```
+  - Instead of repeatedly typing ```vendor/bin/sail``` to execute Sail commands, you can configure a shell alias that allows you to execute Sail's commands more easily: ```alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'``` that way next time instead of executing ```./vendor/bin/sail up -d``` just run ```sail up -d```.
 - The previous command should set up a redis cluster, a mysql cluster and the application.
 
 ## Setting up the Database
